@@ -11,7 +11,7 @@ def whichPet(inp):
     if result == None:
         return None
     return result.group(1)
-print whichPet('my pet cat')
+print whichPet('my pet  cat')
 print whichPet('my pet dog was cool')
 print whichPet('my pet donkey')
 
@@ -21,3 +21,5 @@ def getAdjs(inp):
     #return re.findall(r'[a-zA-Z0-9_]+y', inp) # the same thing
     #return re.findall(r'\w{1,}y', inp) # the same thing
 print getAdjs('the funny book was goofy')
+
+
